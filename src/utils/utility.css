@@ -1,0 +1,27 @@
+input{
+  background-color: whitesmoke;
+  padding: 10px 20px;
+  font-size: .9rem;
+  width: 94%;
+  margin: auto;
+  color: #000;
+  border-radius: 1.5rem;
+}
+
+label{
+  font-weight: 600;
+  padding-top: 15px;
+  padding-left: 4px;
+  width: 94%;
+  margin: auto;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px whitesmoke inset;
+  -webkit-text-fill-color: black;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+nav a.active {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}

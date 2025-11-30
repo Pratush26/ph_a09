@@ -1,0 +1,176 @@
+{
+  "data_type": "static",
+  "generated_for": "Plant Care Tips Section",
+  "generalTips": {
+    "wateringPrinciples": [
+      "Check soil moisture before watering — stick a finger 2–3 cm into the soil.",
+      "Less frequent, deep watering is usually better than frequent shallow watering.",
+      "Drainage is critical: use pots with drainage holes and well-draining soil."
+    ],
+    "sunlightPrinciples": [
+      "Bright indirect light is best for most houseplants.",
+      "Avoid harsh midday sun for broad-leaf plants (it can scorch leaves).",
+      "Rotate pots regularly so plants grow evenly."
+    ],
+    "fertilizerPrinciples": [
+      "Feed actively-growing plants during spring and summer, reduce in fall/winter.",
+      "Use balanced houseplant fertilizer and follow label dilution.",
+      "Flush the soil occasionally to avoid salt buildup from fertilizers."
+    ],
+    "warning": [
+      "Always adapt guidelines to your specific environment (humidity, temperature, pot size)."
+    ]
+  },
+  "plants": [
+    {
+      "id": "p1",
+      "name": "Pothos (Epipremnum aureum)",
+      "difficulty": "easy",
+      "image": "https://plantsmith.co.uk/wp-content/uploads/2023/10/Devils-Ivy-on-shelf_1200px.jpg",
+      "watering": {
+        "frequency": "every 7–14 days",
+        "method": "water thoroughly until it drains, then let top 1–2 inches of soil dry",
+        "notes": "Tolerant of occasional missed waterings; avoid sitting in water."
+      },
+      "sunlight": {
+        "level": "bright indirect to low",
+        "hours": "2–6",
+        "notes": "Yellowing leaves may indicate too much direct sun or overwatering."
+      },
+      "fertilizing": {
+        "frequency": "every 4–6 weeks (growing season)",
+        "type": "balanced liquid fertilizer (e.g., 10-10-10)",
+        "notes": "Use half the recommended strength for sensitive plants."
+      },
+      "commonIssues": [
+        "root rot from overwatering",
+        "pale leaves from low nutrients"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Snake Plant (Sansevieria / Dracaena trifasciata)",
+      "difficulty": "very easy",
+      "image": "https://images.squarespace-cdn.com/content/v1/54fbb611e4b0d7c1e151d22a/1607997169020-HUYXENEIG9YVWUUQT7UN/Snake+Plant.jpg?format=2500w",
+      "watering": {
+        "frequency": "every 3–8 weeks (depending on season)",
+        "method": "allow soil to dry completely between waterings",
+        "notes": "Extremely drought-tolerant; overwatering is the most common problem."
+      },
+      "sunlight": {
+        "level": "low to bright indirect",
+        "hours": "1–6",
+        "notes": "Survives in low light but grows faster in bright indirect light."
+      },
+      "fertilizing": {
+        "frequency": "every 6–8 weeks (spring/summer)",
+        "type": "low-dose balanced fertilizer",
+        "notes": "Skip fertilizing in winter."
+      },
+      "commonIssues": [
+        "soft or mushy leaves (overwatered)",
+        "brown leaf tips (low humidity or buildup)"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Fiddle Leaf Fig (Ficus lyrata)",
+      "image": "https://www.plantvine.com/plants/Ficus-Lyrata-7G-STD-768x960.jpg",
+      "difficulty": "intermediate",
+      "watering": {
+        "frequency": "every 7–10 days",
+        "method": "water thoroughly until it drains; keep soil slightly moist but not soggy",
+        "notes": "Sensitive to overwatering and sudden changes in environment."
+      },
+      "sunlight": {
+        "level": "bright indirect",
+        "hours": "6–8",
+        "notes": "Needs consistent bright light—look for new growth as a sign of health."
+      },
+      "fertilizing": {
+        "frequency": "every 4 weeks (spring to early autumn)",
+        "type": "high-nitrogen balanced fertilizer",
+        "notes": "Reduce frequency in winter; prune to encourage bushier growth."
+      },
+      "commonIssues": [
+        "brown spots from overwatering or pests",
+        "leaf drop from drafts or sudden moves"
+      ]
+    },
+    {
+      "id": "p4",
+      "name": "Peace Lily (Spathiphyllum)",
+      "difficulty": "easy to medium",
+      "image": "https://americanplantexchange.com/cdn/shop/products/peacelily-1.jpg?v=1672881763&width=1100",
+      "watering": {
+        "frequency": "every 7–10 days",
+        "method": "keep soil evenly moist but not waterlogged; wilting is an early sign of thirst",
+        "notes": "Will droop dramatically when thirsty but recovers quickly after watering."
+      },
+      "sunlight": {
+        "level": "low to bright indirect",
+        "hours": "2–5",
+        "notes": "Direct sun can scorch leaves; does well in filtered light."
+      },
+      "fertilizing": {
+        "frequency": "every 6 weeks (growing season)",
+        "type": "balanced houseplant fertilizer",
+        "notes": "Too much fertilizer causes brown leaf tips."
+      },
+      "commonIssues": [
+        "brown leaf tips (underwatering or salts)",
+        "yellowing leaves (overwatering)"
+      ]
+    },
+    {
+      "id": "p5",
+      "name": "Spider Plant (Chlorophytum comosum)",
+      "difficulty": "easy",
+      "image": "https://americanplantexchange.com/cdn/shop/products/spider-2.jpg?v=1672881788&width=1100",
+      "watering": {
+        "frequency": "every 7–10 days",
+        "method": "water when top inch of soil is dry; avoid letting it sit in water",
+        "notes": "Prefers slightly moist soil; adaptable to many conditions."
+      },
+      "sunlight": {
+        "level": "bright indirect",
+        "hours": "3–6",
+        "notes": "Direct sun may bleach leaf stripes."
+      },
+      "fertilizing": {
+        "frequency": "every 4–8 weeks (spring/summer)",
+        "type": "balanced liquid fertilizer",
+        "notes": "Fertilize less in winter."
+      },
+      "commonIssues": [
+        "brown tips from fluoride in water or overfertilizing",
+        "pale leaves from low light"
+      ]
+    },
+    {
+      "id": "p6",
+      "name": "Succulents (mixed)",
+      "difficulty": "easy (if kept dry)",
+      "image": "https://www.succulentsonline.com.au/cdn/shop/files/IMG-20240109-WA0023.jpg?v=1743773187",
+      "watering": {
+        "frequency": "every 2–6 weeks depending on season",
+        "method": "soak and dry method: water deeply then allow soil to dry out completely",
+        "notes": "Use very well-draining soil and pots with drainage holes."
+      },
+      "sunlight": {
+        "level": "bright direct to bright indirect",
+        "hours": "6+ (many prefer several hours of direct sun)",
+        "notes": "Slow growth in low light; sun-adapt slowly to avoid sunburn."
+      },
+      "fertilizing": {
+        "frequency": "every 8–12 weeks in growing season",
+        "type": "diluted cactus/succulent fertilizer",
+        "notes": "Less is more — overfertilizing leads to leggy growth."
+      },
+      "commonIssues": [
+        "root rot from overwatering",
+        "stretched/leggy growth from insufficient light"
+      ]
+    }
+  ]
+}

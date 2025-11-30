@@ -1,0 +1,30 @@
+[
+  {
+    "expertId": 1,
+    "expertName": "Dr. Elara Vance",
+    "specialization": "Horticultural Science & Pest Management",
+    "description": "With a PhD in Horticulture, Dr. Vance is an authority on plant pathology and integrated pest management. She's known for her sustainable solutions.",
+    "image": "https://photos.psychologytoday.com/48dabf7b-4ffd-4ee8-88ff-29fbf9a8214c/1/320x400.jpeg"
+  },
+  {
+    "expertId": 2,
+    "expertName": "Marcus Thorne",
+    "specialization": "Tropical & Exotic Indoor Plants",
+    "description": "Marcus has spent two decades cultivating rare tropical species. His expertise lies in replicating jungle environments indoors and advising on unique plant needs.",
+    "image": "https://a.mktgcdn.com/p/bn7Hjjt2Tp-RTfj8KRrO_raD0vZO7FoOOxYcVGu2sW8/3688x3965.jpg"
+  },
+  {
+    "expertId": 3,
+    "expertName": "Sophia Chen",
+    "specialization": "Succulents, Cacti & Arid Plant Care",
+    "description": "Sophia is a renowned succulent artist and grower. Her deep knowledge helps enthusiasts keep their desert-loving plants thriving in diverse climates.",
+    "image": "https://reviewmedical.org/assets/4_1761071337063-DjCgIaw3.png"
+  },
+  {
+    "expertId": 4,
+    "expertName": "David Green",
+    "specialization": "Urban Gardening & Edible Indoor Plants",
+    "description": "David specializes in helping city dwellers maximize small spaces for greenery, focusing on edible plants, herbs, and creating lush indoor oases.",
+    "image": "https://images.med.cornell.edu/headshots/dag9025.jpg?3370f1b78e"
+  }
+]
