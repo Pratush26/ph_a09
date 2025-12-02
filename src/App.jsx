@@ -9,11 +9,11 @@ import ScrollToTop from './utils/ScrollTop'
 export default function App() {
   const { state } = useNavigation()
   return (
-    <div className="flex flex-col gap-1 min-h-screen justify-between">
+    <div className="flex flex-col min-h-screen justify-between">
       <Navbar />
+      { state === 'loading' ?  <Loader /> : <Outlet /> }
       <ToastContainer position="top-center" />
       <ScrollToTop />
-      { state === 'loading' ?  <Loader /> : <Outlet /> }
       <Footer />
     </div>
   )

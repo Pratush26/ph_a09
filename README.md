@@ -3,8 +3,8 @@
 
 ***GreenNest*** is an elegant single-page web application built for plant lovers who want to nurture and decorate their homes with healthy indoor plants. The platform allows users to explore plant care guides, buy plants, and book expert consultations — ensuring a greener and healthier living space during any season.     
 
-### [Live link](https://green-nest-db719.firebaseapp.com/)
-### [Live link2](https://green-nest-db719.web.app/)
+- [Live link](https://green-nest-db719.firebaseapp.com/)
+- [Live link2](https://green-nest-db719.web.app/)
 
 #### Used Tech ->
 - Swiper js

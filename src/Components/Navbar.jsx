@@ -19,8 +19,8 @@ export default function Navbar() {
         setIsOpened(false);
     }, [user]);
     return (
-        <header className="w-11/12 mx-auto p-4 relative">
-            <nav className="flex font-medium items-center justify-between gap-4">
+        <header className="p-4 sticky top-0 right-0 z-100 shadow bg-white">
+            <nav className="flex font-medium items-center justify-between gap-4 w-11/12 mx-auto">
                 <Link to='/' className="text-2xl text-emerald-900 italic font-bold" >GreenNest</Link>
                 <div className="space-x-2 hidden sm:block">
                     <NavLink to='/'>Home</NavLink>
