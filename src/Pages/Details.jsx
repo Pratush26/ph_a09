@@ -1,14 +1,30 @@
-import { useState } from "react"
-import { useLoaderData } from "react-router"
+import { useContext, useState } from "react"
+import { useLoaderData, useNavigate } from "react-router"
 import { toast } from "react-toastify"
 import ConsultantForm from "../Components/ConsultantForm"
+import { AuthContext } from "../Context/AuthContext"
 
 export default function PlantsDetails() {
+    const {user} = useContext(AuthContext)
+    const navigate = useNavigate()
     const data = useLoaderData()
     const e = data[0]
     const [stock, setStock] = useState(e.availableStock)
+    const handleCart = () => {
+        if(!user) {
+            toast.warn("Login is required")
+            navigate("/register")
+        }
+        else if (stock > 0) {
+            toast.success(`${e.plantName} successfully added to cart`)
+        } else toast.warn(`Sorry! ${e.plantName} is stock out`)
+    }
     const handleBuy = () => {
-        if (stock > 0) {
+        if(!user) {
+            toast.warn("Login is required")
+            navigate("/register")
+        }
+        else if (stock > 0) {
             setStock(stock - 1)
             toast.success(`Successfully purchased ${e.plantName}`)
         } else toast.warn(`Sorry! ${e.plantName} is stock out`)
@@ -35,7 +51,7 @@ export default function PlantsDetails() {
                     <p>Price: ${e.price}</p>
                 </div>
                 <div className="space-x-3 font-medium">
-                    <button className="px-4 py-2 rounded-md bg-gray-900 text-white hover:bg-gray-950 cursor-pointer">Add to Cart</button>
+                    <button onClick={() => handleCart()} className="px-4 py-2 rounded-md bg-gray-900 text-white hover:bg-gray-950 cursor-pointer">Add to Cart</button>
                     <button onClick={() => handleBuy()} className="px-4 py-2 rounded-md bg-emerald-900 text-white hover:bg-emerald-950 cursor-pointer">Buy Now</button>
                 </div>
             </section>
