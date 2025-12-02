@@ -16,9 +16,9 @@ export default function Footer() {
                     <Link to='/profile'>Profile</Link>
                 </div>
                 <div className="grid grid-flow-row gap-3">
-                    <Link to='/'>About</Link>
-                    <Link to='/'>Contact</Link>
-                    <Link to='/'>Privacy Policy</Link>
+                    <Link to='/about'>About Us</Link>
+                    <Link to='/contact'>Contact Us</Link>
+                    <Link to='/terms'>Terms & Conditions</Link>
                 </div>
                 <div className="grid grid-flow-row gap-3">
                     <h5 className="font-semibold text-lg">Social Links</h5>

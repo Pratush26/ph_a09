@@ -14,6 +14,9 @@ import Loading from "../Layouts/Loading";
 import PlantsDetails from "../Pages/Details";
 import CaringGuidePage from "../Pages/Guide";
 import PrivateRoute from "./PrivateRoute";
+import AboutUs from "../Pages/About";
+import TermsCondition from "../Pages/Terms";
+import ContactPage from "../Pages/Contact";
 
 export const router = createBrowserRouter([
   {
@@ -46,7 +49,7 @@ export const router = createBrowserRouter([
           const res = await axios('/plants.json')
           return res.data.filter(e => e.plantId == params.id)
         },
-        element: <PrivateRoute><PlantsDetails /></PrivateRoute>
+        Component: PlantsDetails
       },
       {
         path: '/care/:id',
@@ -63,6 +66,18 @@ export const router = createBrowserRouter([
       {
         path: '/login',
         Component: Login
+      },
+      {
+        path: '/about',
+        Component: AboutUs
+      },
+      {
+        path: '/contact',
+        Component: ContactPage
+      },
+      {
+        path: '/terms',
+        Component: TermsCondition
       },
       {
         path: '/profile',
